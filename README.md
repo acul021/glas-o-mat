@@ -23,12 +23,22 @@ berechnet der Glas-o-mat, wann Container geleert werden müssen, bevor sie über
 1. Klont das Repository:
    ```bash
    git clone https://github.com/acul021/glas-o-mat.git
-   cd glas-o-mat
+   cd glas_o_mat
    ```
 
-2. Installiert die erforderlichen Abhängigkeiten:
+2. Conda Environment erstellen:
    ```bash
-   pip install -r requirements.txt
+   conda env create -f environment.yml
+   ```
+
+3. Conda Environment aktivieren:
+   ```bash
+    conda activate glas-o-mat
+    ```
+
+4. Local Package installieren:
+   ```bash
+   pip install -e ./glas_o_mat
    ```
 
 
