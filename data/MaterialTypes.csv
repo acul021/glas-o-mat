@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8e82114af5f0b4e73c55096b7faee9ac443e20b2b0346341dbe24c803b4f4e49
-size 99
+MATERIAL_TYPE_ID,MATERIAL_NAME,DENSITY
+11,glas_white,-1.00
+12,glas_green,-1.00
+13,glas_brown,-1.00

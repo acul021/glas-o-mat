@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:080a22eeb990d923d59615abbbb64675432b2ddff70649fbe2d1db54d8524098
-size 822
+CONSTRUCTION_TYPE_ID,CONSTRUCTION_TYPE_NAME,VOLUME,HEIGHT,LENGTH,WIDTH,SLOT_HEIGHT,HAS_FLAP,OPENING_MECHANISM,NUM_OPENING_HOLES_PER_COMPARTMENT,NUM_COMPARTMENTS
+1,"Depotcontainer 3,2",3.20,1000.00,-1.00,-1.00,-1.00,1,Grumbach,2,1
+2,"Depotcontainer 1,6",1.60,1000.00,-1.00,-1.00,-1.00,1,Grumbach,2,1
+3,"Depotcontainer 2-Kammer 1,6",1.60,1000.00,-1.00,-1.00,-1.00,-1,Grumbach,2,2
+4,"Depotcontainer 3,6",3.60,1200.00,-1.00,-1.00,-1.00,-1,Grumbach,2,1
+5,"Bauer UFS Kuba 2-Kammer 2,5",2.40,2574.00,-1.00,-1.00,-1.00,-1,2-Haken,1,2
+6,"H&G UFS 3,0",3.00,1700.00,-1.00,-1.00,-1.00,-1,2-Haken,1,1
+7,"Bauer UFS Kuba 3,0",3.00,1604.00,-1.00,-1.00,-1.00,-1,2-Haken,1,1
+8,"Unterflursystem Villiger 3,0",3.00,1435.00,-1.00,-1.00,-1.00,-1,2-Haken,1,1
+9,"H&G UFS 3,0 oder Bauer UFS Kuba 3,0",3.00,-1.00,-1.00,-1.00,-1.00,-1,2-Haken,-1,-1

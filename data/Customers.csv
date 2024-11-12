@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:26a698d65141137941ed9e45cae5489fa2d5b42cfac6016a554be9e7ba64b772
-size 463
+COMPANY_ID,CUSTOMER_ID,DISPOSITION_AREA_ID,COMPANY_NAME,BRANCH_NAME,DISPOSITION_AREA_NAME,REGION_CODE
+1001,10011011,1001101101,Jakob Becker Entsorgungs-GmbH,Jakob Becker Entsorgungs-GmbH Mehlingen,Stadt Kaiserslautern,
+1001,10011011,1001101102,Jakob Becker Entsorgungs-GmbH,Jakob Becker Entsorgungs-GmbH Mehlingen,Landkreis Kaiserslautern,
+1002,10021011,1002101101,EAD Darmstadt,EAD Darmstadt,Stadt Darmstadt,
+1003,10031011,1003101101,Testkunde,Testkunde,Testen,

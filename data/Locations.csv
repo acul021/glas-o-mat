@@ -1,3 +1,401 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0d2a6f80b8bdb7db97f2c87aa03ba2d4e21ad88e4e140187a0090d90d1a2e2d3
-size 53746
+LOCATION_ID,GEO_LAT,GEO_LON,LOCATION_NAME,CITY,STREET,POSTALCODE,IS_ACTIVE,DISPOSITION_AREA_ID,ACCESS_TYPE,HAS_POSITION_CHANGED
+100110110101,49.493983,7.844887,Jakob Becker Mehlingen,Mehlingen,An d. Heide 10,67678,1,1001101101,private,0
+100110110191,49.503797,7.851304,Schirmbeck,Mehlingen,Lindberg-Allee 45,67678,1,1001101101,private,0
+100110110201,49.493983,7.844887,Jakob Becker Mehlingen,Mehlingen,An d. Heide 10,67678,1,1001101102,private,0
+100110110291,49.503797,7.851304,Schirmbeck,Mehlingen,Lindberg-Allee 45,67678,1,1001101102,private,0
+100110210191,-1.000000,-1.000000,Unknown Location,Unknown City,Unknown Street,00000,1,,,0
+100310110191,49.037970,7.513040,Abladeort,Metropolis,Unter den Linden,54321,1,1003101101,private,0
+100110110110001,49.404778,7.726918,Parkplatz Ortsverwaltung,Dansenberg,Franz-Brecht-Straße,67661,1,1001101101,public,0
+100110110110002,49.407417,7.733458,"Ecke ""Im Langacker""",Dansenberg,Eckstraße,67661,1,1001101101,public,0
+100110110110003,49.403217,7.727401,Bushaltestelle,Dansenberg,Wasserlochstücke,67661,1,1001101101,public,0
+100110110110004,49.469885,7.715659,gegenüber Sportplatz,Erfenbach,Jahnstraße,67659,1,1001101101,public,0
+100110110110005,49.482105,7.713448,Parkplatz Kreuzsteinhalle,Erfenbach,Schwarzer Weg,67659,1,1001101101,public,0
+100110110110006,49.474073,7.706047,Wertstoffhof Erfenbach,Erfenbach,Siegelbacher Str. 187,67659,1,1001101101,recycling_depot,0
+100110110110007,49.489559,7.700810,Buswendeplatz,Erfenbach (Stockborn),Stockborn,67659,1,1001101101,public,0
+100110110110008,49.478644,7.784001,Buswendeplatz,Erlenbach,Husarenäcker,67659,1,1001101101,public,0
+100110110110009,49.483419,7.768798,Parkplatz Turnerheim,Erlenbach,Im Wiesental,67659,1,1001101101,public,0
+100110110110010,49.472293,7.783631,Wendeplatz,Erlenbach (Gersweilerhof),Ochsenberg,67659,1,1001101101,public,0
+100110110110011,49.412621,7.697232,Parkplatz Burgherrenhalle,Hohenecken,Burgherrenstraße,67661,1,1001101101,public,0
+100110110110012,49.422294,7.701073,Spielplatz,Hohenecken,Im Unterwald,67661,1,1001101101,public,0
+100110110110013,49.416864,7.695751,Unterführung B 270,Hohenecken,Kohlkopfstraße,67661,1,1001101101,public,0
+100110110110014,49.398407,7.712917,"Ecke ""Zum Jagdhaus""",Hohenecken (Espensteig),Breitenauer Straße,67661,1,1001101101,public,0
+100110110110015,49.454544,7.772941,Theodor-Heuss-Grundschule,Kaiserslautern,Alex-Müller-Straße,67657,1,1001101101,public,0
+100110110110016,49.450380,7.771540,"Ecke ""Auf dem Sess""",Kaiserslautern,Am Vogelgesang,67657,1,1001101101,public,0
+100110110110017,49.443743,7.784564,Messeplatz,Kaiserslautern,August-Herrmann-Straße,67655,1,1001101101,public,0
+100110110110018,49.439201,7.733409,gegenüber Hausnr. 17,Kaiserslautern,Bahnheim,67663,1,1001101101,public,0
+100110110110019,49.448608,7.769743,Berufsbildende Schule II,Kaiserslautern,Benzinoring,67657,1,1001101101,public,0
+100110110110020,49.429910,7.771780,Busparkplatz Bremerstraße,Kaiserslautern,Bremerstraße,67663,1,1001101101,public,0
+100110110110021,49.440914,7.810741,ASK Wertstoffhof,Kaiserslautern,Daennerstr. 17,67657,1,1001101101,recycling_depot,0
+100110110110022,49.447886,7.797602,Buswendeschleife,Kaiserslautern,Donnersbergstr.,67657,1,1001101101,public,0
+100110110110023,49.423174,7.756258,"Parkplatz, hinter Uni Bau 54",Kaiserslautern,Erwin-Schrödinger-Str.,67663,1,1001101101,not_public,0
+100110110110024,49.455286,7.810603,"PRE-Park, Planet Bowling",Kaiserslautern,Europaallee 25,67657,1,1001101101,not_public,0
+100110110110025,49.446421,7.753424,Studentenwohnheim,Kaiserslautern,Forellenstr. 19,67659,1,1001101101,not_public,0
+100110110110026,49.448326,7.784683,Ecke Gabelsbergerstraße,Kaiserslautern,Friedenstr.,67657,1,1001101101,public,0
+100110110110027,49.456130,7.791667,Hertelsbrunnenring,Kaiserslautern,Hertelsbrunnenring,67657,1,1001101101,public,0
+100110110110028,49.438957,7.751890,Ecke Pfaffstraße,Kaiserslautern,Herzog-von-Weimar-Straße,67655,1,1001101101,public,0
+100110110110029,49.441339,7.787923,Wendeplatz,Kaiserslautern,Im Reiserfeld,67657,1,1001101101,public,0
+100110110110030,49.445194,7.745876,Schillerschule,Kaiserslautern,Julius-Küchler-Str. ,67659,1,1001101101,public,0
+100110110110031,49.453480,7.758971,Bushaltestelle,Kaiserslautern,Kaiserbergring,67657,1,1001101101,public,0
+100110110110032,49.444649,7.781163,"Ecke Eichenstraße, Wiesenplatz",Kaiserslautern,Kanalstraße,67655,1,1001101101,public,0
+100110110110033,49.430389,7.780554,Brücke,Kaiserslautern,Kantstr.,67663,1,1001101101,public,0
+100110110110034,49.435523,7.782445,gegenüber Haus 28,Kaiserslautern,Kantstr.,67663,1,1001101101,public,0
+100110110110035,49.445480,7.755632,Kottenschule,Kaiserslautern,Karl-Theodor-Platz,67657,1,1001101101,public,0
+100110110110036,49.443195,7.742513,Ecke Feuerbachstraße,Kaiserslautern,Käthe-Kollwitz-Str. ,67659,1,1001101101,public,0
+100110110110037,49.437255,7.776968,Ecke Theodor-Kiefer-Str.,Kaiserslautern,Kohlenhofstr.,67659,1,1001101101,public,0
+100110110110038,49.449473,7.739224,Hochhaus Königsberger Straße,Kaiserslautern,Königsberger Straße,67659,1,1001101101,public,0
+100110110110039,49.424918,7.737958,Waldrand,Kaiserslautern,Konrad-Adenauer-Straße,67663,1,1001101101,public,0
+100110110110040,49.431460,7.769340,"Ecke ""Auf der Pirsch""",Kaiserslautern,Kurpfalzstraße,67663,1,1001101101,public,0
+100110110110041,49.423889,7.748725,Parkplatz Ecke Trippstadter Straße,Kaiserslautern,Kurt-Schumacher-Str.,67663,1,1001101101,public,0
+100110110110042,49.437258,7.745147,Pfaffbrücke,Kaiserslautern,Langenfeldstraße,67655,1,1001101101,public,0
+100110110110043,49.455021,7.748505,Pfalztheater-Werkstätten,Kaiserslautern,Lauterstraße,67657,1,1001101101,public,0
+100110110110044,49.433487,7.729665,Parkplatz Ladenzeile,Kaiserslautern,Leipziger Str.,67663,1,1001101101,public,0
+100110110110045,49.447094,7.740394,Ecke Höfflerstraße,Kaiserslautern,Lothringer Dell ,67659,1,1001101101,public,0
+100110110110046,49.453368,7.812084,Parkplatz Schwimmbad,Kaiserslautern,Mailänder Straße,67657,1,1001101101,public,0
+100110110110047,49.443558,7.802801,Daennerplatz,Kaiserslautern,Mannheimer Str.,67657,1,1001101101,public,0
+100110110110048,49.442197,7.815989,Parkplatz Pfalz Center,Kaiserslautern,Mannheimer Str.,67657,1,1001101101,public,0
+100110110110049,49.425299,7.741536,Bushaltestelle,Kaiserslautern,Marie-Juchacz-Straße,67663,1,1001101101,public,0
+100110110110050,49.450027,7.763767,Parkplatz Max-Planck-Straße,Kaiserslautern,Max-Planck-Straße,67657,1,1001101101,public,0
+100110110110051,49.437809,7.742148,Studentenwohnheim,Kaiserslautern,Meisenweg 8,67663,1,1001101101,not_public,0
+100110110110052,49.443826,7.734536,Wendeplatz,Kaiserslautern,Merkurstraße,67659,1,1001101101,public,0
+100110110110053,49.440841,7.708089,Parkplatz Globus,Kaiserslautern,Merkurstraße,67663,1,1001101101,public,0
+100110110110054,49.430581,7.726800,"Ecke Merseburger Str., Buswendeplatz",Kaiserslautern,Leipziger Str.,67663,1,1001101101,public,0
+100110110110055,49.446243,7.764550,Parkplatz Meuthstraße,Kaiserslautern,Meuthstraße,67659,1,1001101101,public,0
+100110110110056,49.442761,7.751810,Kaufland,Kaiserslautern,Pariser Str.,67655,1,1001101101,public,0
+100110110110057,49.438271,7.723000,"Eisenbahnausbesserungswerk, im Werk",Kaiserslautern,Pariser Str. 300,67663,1,1001101101,not_public,0
+100110110110058,49.437781,7.725728,"Parkplatz Ecke ""Am Belzappel""",Kaiserslautern,Pariser Str. ,67663,1,1001101101,public,0
+100110110110059,49.425654,7.752265,Parkplatz Unisport,Kaiserslautern,Paul-Ehrlich-Straße,67663,1,1001101101,public,0
+100110110110060,49.443003,7.759137,Pfaffplatz,Kaiserslautern,Pfaffplatz,67655,1,1001101101,public,0
+100110110110061,49.436897,7.757627,Städtischer Wertstoffhof 1,Kaiserslautern,Pfaffstr. 3 ,67655,1,1001101101,recycling_depot,0
+100110110110062,49.435887,7.740158,Stresemannschule,Kaiserslautern,Rauschenweg,67663,1,1001101101,public,0
+100110110110063,49.441127,7.735341,Sportplatz,Kaiserslautern,Reichswaldstr. ,67663,1,1001101101,public,0
+100110110110064,49.439431,7.767162,Ecke Brahmsstraße,Kaiserslautern,Richard-Wagner-Straße,67655,1,1001101101,public,0
+100110110110065,49.443237,7.722664,LKW Parkplatz Röchlingstraße,Kaiserslautern,Röchlingstraße,67663,1,1001101101,public,0
+100110110110066,49.447646,7.756202,Kulturzentrum Kammgarn im Hof,Kaiserslautern,Schoenstr. 10,67659,1,1001101101,not_public,0
+100110110110067,49.451541,7.797525,Geschwister-Scholl-Schule,Kaiserslautern,Schreberstr.,67657,1,1001101101,public,0
+100110110110068,49.444105,7.774833,Rückseite Pfalzbibliothek,Kaiserslautern,Schubertstraße,67655,1,1001101101,public,0
+100110110110069,49.447244,7.772618,Altstadtparkhaus,Kaiserslautern,Seminargasse,67657,1,1001101101,public,0
+100110110110070,49.455380,7.754899,Buswendeschleife,Kaiserslautern,Sonnenberg,67657,1,1001101101,public,0
+100110110110071,49.441387,7.761103,Parkplatz Friedrich-Engels-Str.,Kaiserslautern,St. Marienplatz,67655,1,1001101101,public,0
+100110110110072,49.443125,7.794124,Busdepot,Kaiserslautern,Stiftswaldstr.,67657,1,1001101101,public,0
+100110110110073,49.432980,7.753358,Wasgau,Kaiserslautern,Carl-Euler-Straße,67663,1,1001101101,public,0
+100110110110074,49.442724,7.737551,Städtischer Wertstoffhof 2,Kaiserslautern,Vogelwoogstr. 50,67659,1,1001101101,recycling_depot,0
+100110110110075,49.443143,7.767291,Parkplatz Wagnerstraße,Kaiserslautern,Wagnerstraße,67655,1,1001101101,public,0
+100110110110076,49.431153,7.754261,Beim Hochhaus,Kaiserslautern,Wilhelm-Raabe-Straße,67663,1,1001101101,public,0
+100110110110077,49.440115,7.775702,Ecke Schneppbachstraße,Kaiserslautern,Wilhelmstraße,67655,1,1001101101,public,0
+100110110110078,49.435416,7.776526,"Stadion, Parkplatz Nord",Kaiserslautern,Zum Betzenberg,67663,1,1001101101,not_public,0
+100110110110079,49.430103,7.668661,"Alte Schule, Ortsverwaltung",Kaiserslautern (Einsiedlerhof),Kaiserstr.,67661,1,1001101101,public,0
+100110110110080,49.438755,7.654402,Wendeplatz,Kaiserslautern (Einsiedlerhof),Weilerbacher Str.,67661,1,1001101101,public,0
+100110110110081,49.459617,7.731028,Sportverein Wiesentalerhof,Kaiserslautern (Erzhütten),Erzhütter Str.,67659,1,1001101101,public,0
+100110110110082,49.458414,7.738908,Gegenüber Haus Nr. 89,Kaiserslautern (Erzhütten),Kaisermühler Str.,67659,1,1001101101,public,0
+100110110110083,49.468828,7.736236,Buswendeschleife,Kaiserslautern (Erzhütten),Talstr.,67659,1,1001101101,public,0
+100110110110084,49.475873,7.819559,ZAK Wertstoffhof,Kaiserslautern,Kapiteltal 1,67678,1,1001101101,recycling_depot,0
+100110110110085,49.379705,7.821144,Buswendeschleife,Mölschbach,Douzystraße,67661,1,1001101101,public,0
+100110110110086,49.385896,7.817228,Ecke Johanniskreuzer Straße,Mölschbach,Im Grubenteich,67661,1,1001101101,public,0
+100110110110087,49.382062,7.826906,Friedhof,Mölschbach,Oberer Roßrück,67661,1,1001101101,public,0
+100110110110088,49.464467,7.765000,Parkplatz Sportplatz,Morlautern,Freiherr-vom-Stein-Straße,67659,1,1001101101,public,0
+100110110110089,49.470303,7.765624,Dorfplatz (Morlautern),Morlautern,Otterberger Str. ,67659,1,1001101101,public,0
+100110110110090,49.460865,7.761401,Parkplatz Freibad,Morlautern,Waschmühle,67659,1,1001101101,public,0
+100110110110091,49.468543,7.688448,Parkplatz Fischereck,Siegelbach,Fischereck,67661,1,1001101101,public,0
+100110110110092,49.466193,7.686857,Parkplatz Tennisplätze,Siegelbach,Geiersberg,67661,1,1001101101,public,0
+100110110110093,49.466415,7.697040,Parkplatz Friedhof ,Siegelbach,Sandstraße,67661,1,1001101101,public,0
+100110110110094,49.443226,7.814040,gegenüber Colloseum (WR-Security),Kaiserslautern,Mannheimer Str.,67657,1,1001101101,unknown,0
+100110110110095,49.438757,7.654543,Wendeplatz,Kaiserslautern,Weilerbacher Str. 110,67661,1,1001101101,public,0
+100110110199999,-1.000000,-1.000000,Placeholder,Placeholder,Placeholder,Placeholde,1,1001101101,,0
+100110110210001,49.396028,7.611278,Kreisel Waldstr.,Bann,Hauptstr.,66851,1,1001101102,public,0
+100110110210002,49.387056,7.619917,Parkplatz Netto,Bann,Hauptstr.,66851,1,1001101102,public,0
+100110110210003,49.391861,7.608194,Grundschule,Bann,Schulstr.,66851,1,1001101102,public,0
+100110110210004,49.381806,7.440917,Gasregulierstation,Bruchmühlbach-Miesau,Alte Str.,66892,1,1001101102,public,0
+100110110210005,49.383528,7.441750,Penny,Bruchmühlbach-Miesau,Im Froschpfuhl,66892,1,1001101102,public,0
+100110110210006,49.415889,7.432222,Dorfplatz (Bruchmühlbach-Miesau),Elschbach,Glanstr.,66892,1,1001101102,public,0
+100110110210007,49.412967,7.444515,Parkplatz am Schwimmbad,Bruchmühlbach-Miesau,Am Schwimmbad,66892,1,1001101102,public,0
+100110110210008,49.397382,7.438397,EDEKA,Bruchmühlbach-Miesau,Bahnhofstr.,66892,1,1001101102,public,0
+100110110210009,49.378306,7.433194,Dorfgemeinschaftshaus,Vogelbach,Zum Hohen Fels,66892,1,1001101102,public,0
+100110110210010,49.380111,7.426222,Vogelbach Hauptstraße,Vogelbach,Zum Peterswald,66892,1,1001101102,public,0
+100110110210011,49.472255,7.887006,Polizeischule im Gelände,Enkenbach-Alsenborn,Birkenstr.,67677,1,1001101102,not_public,0
+100110110210012,49.490699,7.900711,Aldi Rückseite,Enkenbach-Alsenborn,Bruchwiesen,67677,1,1001101102,public,0
+100110110210013,49.495889,7.890972,Hainweg/Ecke Haselheckerstr.,Enkenbach-Alsenborn,Hainweg,67677,1,1001101102,public,0
+100110110210014,49.494472,7.905694,IGS,Enkenbach-Alsenborn,Mühlberg,67677,1,1001101102,public,0
+100110110210015,49.507226,7.891053,Prot. Altenheim,Enkenbach-Alsenborn,Untere Eselsmühle,67677,1,1001101102,public,0
+100110110210016,49.491595,7.924667,Parkplatz Schwimmbad,Alsenborn,Dr.-Leo-Dietzel-Platz,67677,1,1001101102,public,0
+100110110210017,49.490083,7.919167,Dorfplatz,Alsenborn,Josefstr.,67677,1,1001101102,public,0
+100110110210018,49.498419,7.615342,Parkplatz Ortseingang,Erzenhausen,Schwedelbacher Str.,67685,1,1001101102,public,0
+100110110210019,49.502611,7.641889,Alte Kläranlage/Wanderparkplatz Eulenbis,Eulenbis,Pfeifertalstr.,67685,1,1001101102,public,0
+100110110210020,49.453528,7.910194,Mehrzweckhalle,Fischbach,Frontalstr.,67693,1,1001101102,public,0
+100110110210021,49.539944,7.639222,Friedhof,Frankelbach,Friedhofsweg,67737,1,1001101102,public,0
+100110110210022,49.439500,7.968361,Bahnhof / Holzverladung,Frankenstein,Hauptstr.,67468,1,1001101102,public,0
+100110110210023,49.434861,7.991833,Wochenendgebiet Schliertal,Frankenstein,Schliertal,67468,1,1001101102,public,0
+100110110210024,49.446398,7.992947,Wendeplatz,Frankenstein,Thörigtal,67468,1,1001101102,public,0
+100110110210025,49.442628,7.964910,Diemerstein,Diemerstein,Diemersteiner Str.,67468,1,1001101102,public,0
+100110110210026,49.355694,7.518806,Am Hochbehälter,Gerhardsbrunn,Adam-Müller-Str.,66894,1,1001101102,public,0
+100110110210027,49.396625,7.488121,Kriegerdenkmal,Hauptstuhl,Thomas-Mann-Straße,66851,1,1001101102,public,0
+100110110210028,49.554917,7.758833,Zufahrt Sportplatz,Heiligenmoschel,Römerstraße,67699,1,1001101102,public,0
+100110110210029,49.515333,7.681389,Bahnübergang,Hirschhorn,Weilerbacher Straße,67732,1,1001101102,public,0
+100110110210030,49.442681,7.878594,Zufahrt Grünabfallsammelstelle,Hochspeyer,Hauptstr.,67691,1,1001101102,public,0
+100110110210031,49.437833,7.895222,Ecke Nelkenstr.,Hochspeyer,Heidenhübel,67691,1,1001101102,public,0
+100110110210032,49.440889,7.892806,Parkplatz Schwimmbad,Hochspeyer,Mühlhofstr.,67691,1,1001101102,public,0
+100110110210033,49.438944,7.887917,Bauhof,Hochspeyer,Weiherstr.,67691,1,1001101102,public,0
+100110110210034,49.419167,7.474250,Hütschenhausen Eckstr.,Hütschenhausen,Eckstr.,66882,1,1001101102,public,0
+100110110210035,49.423028,7.474861,Hütschenhausen Friedhof,Hütschenhausen,Friedhofstr.,66882,1,1001101102,public,0
+100110110210036,49.430472,7.513250,"Mitfahrerparkplatz, Netto Rückseite",Hütschenhausen (Spesbach),L 356,66882,1,1001101102,public,0
+100110110210037,49.500165,7.701349,Bahnhof (Katzweiler),Katzweiler,Eisenbahnstr.,67734,1,1001101102,public,0
+100110110210038,49.418889,7.612722,Mehrzweckhalle,Kindsbach,Eisenbahnstr.,66862,1,1001101102,public,0
+100110110210039,49.417278,7.608333,Parkplatz Friedhof,Kindsbach,Friedhofstr.,66862,1,1001101102,public,0
+100110110210040,49.420472,7.621139,Bauhof,Kindsbach,Hirtenpfad,66862,1,1001101102,public,0
+100110110210041,49.412417,7.610694,Parkplatz Bärenlochweiher,Kindsbach,Weiherstr.,66862,1,1001101102,public,0
+100110110210042,49.516361,7.587611,Parkplatz Friedhof,Kollweiler,Hofstr.,66879,1,1001101102,public,0
+100110110210043,49.470197,7.543064,"Beim Friedhof, Kottweiler-Schwanden",Kottweiler-Schwanden,Langenäcker Str.,66879,1,1001101102,public,0
+100110110210044,49.479889,7.537944,Sulzbachhalle/ Sportplatz,Kottweiler-Schwanden,Reichenbacher Str.,66879,1,1001101102,public,0
+100110110210045,49.360497,7.669081,Zufahrt Sportplatz,Krickenbach,Dorfwiesen,67706,1,1001101102,public,0
+100110110210046,49.364278,7.435667,hinter Sägewerk,Lambsborn,Talstraße,66894,1,1001101102,public,0
+100110110210047,49.415250,7.579250,Feuerwache,Landstuhl,Am Feuerwehrturm,66849,1,1001101102,public,0
+100110110210048,49.415833,7.570222,Parkplatz Ecke Von-Richthofen-Str.,Landstuhl,Bahnstr.,66849,1,1001101102,public,0
+100110110210049,49.412814,7.587540,IGS Parkplatz,Landstuhl,Konrad-Adenauer-Str.,66849,1,1001101102,public,0
+100110110210050,49.413111,7.587611,IGS Schulhof,Landstuhl,Konrad-Adenauer-Str.,66849,1,1001101102,not_public,0
+100110110210051,49.412188,7.548605,Getränkemarkt,Landstuhl,Torfstr.,66849,1,1001101102,public,0
+100110110210052,49.406699,7.570029,Parkplatz,Landstuhl,Weiherstr.,66849,1,1001101102,public,0
+100110110210053,49.399791,7.550047,Reha-Zentrum Küche Rückseite,Landstuhl (Atzel),Am Rotenborn,66849,1,1001101102,not_public,0
+100110110210054,49.402767,7.571135,Parkplatz Waldrand,Landstuhl (Atzel),Berliner Str.,66849,1,1001101102,public,0
+100110110210055,49.397833,7.574528,Parkplatz,Landstuhl (Atzel),Fichtenplatz,66849,1,1001101102,public,0
+100110110210056,49.398981,7.573216,Grünanlage,Landstuhl (Atzel),In der Atzel,66849,1,1001101102,public,0
+100110110210057,49.399198,7.568753,Theodor-Heuss-Schule,Landstuhl (Atzel),Königsberger Str.,66849,1,1001101102,public,0
+100110110210058,49.399337,7.582968,Krankenhaus Wirtschaftshof,Landstuhl (Atzel),Nardinistr.,66849,1,1001101102,not_public,0
+100110110210059,49.397778,7.577833,Weg zum Schützenhaus,Landstuhl (Atzel),Nardinistr.,66849,1,1001101102,public,0
+100110110210060,49.401139,7.568889,Wendehammer,Landstuhl (Atzel),Stettiner Str.,66849,1,1001101102,public,0
+100110110210061,49.404056,7.578889,Zufahrt L363,Landstuhl (Melkerei),Zur Melkerei,66849,1,1001101102,public,0
+100110110210062,49.376569,7.493511,ggü. Zufahrt Friedhof,Langwieden,Friedhofstr.,66894,1,1001101102,public,0
+100110110210063,49.347111,7.654794,Kläranlage,Linden,Hauptstraße,66851,1,1001101102,public,0
+100110110210064,49.472833,7.581833,Ecke Triftstraße,Mackenbach,Goethestr.,67686,1,1001101102,public,0
+100110110210065,49.474444,7.586639,am Alten Milchhäuschen,Mackenbach,Hauptstr.,67686,1,1001101102,public,0
+100110110210066,49.373048,7.484114,Parkplatz Sportplatz,Martinshöhe,Buchenweg / L466,66894,1,1001101102,public,0
+100110110210067,49.520167,7.711694,Parkplatz Friedhof,Mehlbach,Hebelstr.,67735,1,1001101102,public,0
+100110110210068,49.490750,7.845750,Grünabfallsammelstelle,Mehlingen,Am Wasserturm,67678,1,1001101102,public,0
+100110110210069,49.490528,7.856028,Kerweplatz,Mehlingen,Friedrichstr.,67678,1,1001101102,public,0
+100110110210070,49.495861,7.852611,Sportzentrum,Mehlingen,Hauptstr.,67678,1,1001101102,public,0
+100110110210071,49.496083,7.830278,Wendehammer,Mehlingen (Baalborn),Steinstr.,67678,1,1001101102,public,0
+100110110210072,49.371222,7.550750,ggü. Am Alten Weg,Mittelbrunn,Obernheimer Str.,66851,1,1001101102,public,0
+100110110210073,49.523333,7.917917,Ortsausgang,Neuhemsbach,Hauptstr.,67680,1,1001101102,public,0
+100110110210074,49.580836,7.696226,hinter der Feuerwache,Niederkirchen,Schulstraße,67700,1,1001101102,public,0
+100110110210075,49.574639,7.694694,Wasgau,Niederkirchen,Talstr.,67700,1,1001101102,public,0
+100110110210076,49.574556,7.713750,Dorfplatz (Heimkirchen),Niederkirchen (Heimkirchen),Brunnenstr.,67700,1,1001101102,public,0
+100110110210077,49.578750,7.663861,Friedhof,Niederkirchen (Morbach),Weiherstr.,67700,1,1001101102,public,0
+100110110210078,49.557222,7.676361,Parkplatz Friedhof,Niederkirchen (Wörsbach),Olsbrücker Str.,67700,1,1001101102,public,0
+100110110210079,49.458418,7.475694,Parkplatz Friedhof,Niedermohr,Hauptstr.,66879,1,1001101102,public,0
+100110110210080,49.477889,7.482083,Bushaltestelle Rübental,Niedermohr (Reuschbach),Ortsstr.,66879,1,1001101102,public,0
+100110110210081,49.451972,7.482500,Parkplatz Friedhof,Niedermohr (Schrollbach),Katzenbacher Str.,66879,1,1001101102,public,0
+100110110210082,49.385444,7.589194,hinter der Feuerwache,Oberarnbach,Banner Str.,66851,1,1001101102,public,0
+100110110210083,49.540639,7.659806,Olsbrücken - Innerorts,Olsbrücken,Auf den Wingerten,67737,1,1001101102,public,0
+100110110210084,49.533167,7.661972,Mitfahrerparkplatz,Olsbrücken,Hauptstr.,67737,1,1001101102,public,0
+100110110210085,49.481028,7.732361,Parkplatz Pfalzwerke,Otterbach,Lauterhofstr.,67731,1,1001101102,public,0
+100110110210086,49.482639,7.739139,Sportplatz,Otterbach,Sternbergstraße,67731,1,1001101102,public,0
+100110110210087,49.492944,7.715222,Bushaltestelle,Otterbach (Sambach),Katzweiler Str.,67731,1,1001101102,public,0
+100110110210088,49.511778,7.782611,Parkplatz Campingplatz,Otterberg,Gänsedell,67697,1,1001101102,public,0
+100110110210089,49.501333,7.771278,Parkplatz IDEAL,Otterberg,Hauptstr.,67697,1,1001101102,public,0
+100110110210090,49.504000,7.765694,Parkplatz,Otterberg,Jakob-Meyer-Str.,67697,1,1001101102,public,0
+100110110210091,49.505028,7.772389,Parkplatz,Otterberg,Johannisstraße,67697,1,1001101102,public,0
+100110110210092,49.499637,7.763474,IGS,Otterberg,Schulstr.,67697,1,1001101102,public,0
+100110110210093,49.517642,7.802556,Friedhof,Otterberg (Drehenthalerhof),Glashütter Straße,67697,1,1001101102,public,0
+100110110210094,49.380806,7.640722,Sportplatz,Queidersbach,Auf der Heide,66851,1,1001101102,public,0
+100110110210095,49.370889,7.635222,Ecke Bruchstr.,Queidersbach,Bachstr.,66851,1,1001101102,public,0
+100110110210096,49.374389,7.638361,Schulzentrum Parkplatz,Queidersbach,Jahnstr.,66851,1,1001101102,public,0
+100110110210097,49.441694,7.563306,Thomas Philipps (Crazy Chicken),Ramstein-Miesenbach,Kindsbacher Str.,66877,1,1001101102,public,0
+100110110210098,49.450444,7.553694,Parkplatz Einkaufszentrum,Ramstein-Miesenbach,Rathausring,66877,0,1001101102,public,0
+100110110210099,49.461889,7.555111,Alte Schule Miesenbach,Miesenbach,Hauptstr.,66877,1,1001101102,public,0
+100110110210100,49.492770,7.495971,Parkplatz Friedhof Fockenberg,Fockenberg-Limbach,Römerstraße,66879,1,1001101102,public,0
+100110110210101,49.496528,7.552500,Parkplatz Friedhof Steegen,Steegen,L372,66879,1,1001101102,public,0
+100110110210102,49.477833,7.652722,Grünabfallsammelstelle,Rodenbach,Hübelbrunnenstr.,67688,1,1001101102,public,0
+100110110210103,49.470222,7.642667,Parkplatz Schwimmbad,Rodenbach,Sportstraße,67688,1,1001101102,public,0
+100110110210104,49.542917,7.719250,Grünabfallsammelstelle hinter Friedhof,Schallodenbach,L382,67701,1,1001101102,public,0
+100110110210105,49.539111,7.743583,Dorfbrunnen,Schneckenhausen,Hauptstr.,67699,1,1001101102,public,0
+100110110210106,49.366806,7.718472,Naturfreundehaus,Schopp,Finsterbrunnertal,67707,1,1001101102,public,0
+100110110210107,49.358185,7.695415,Zufahrt Eichwaldstadion,Schopp,Friedhofstr.,67707,1,1001101102,public,0
+100110110210108,49.345833,7.687056,Waldparkplatz,Schopp,Schmalenberger Str.,67707,1,1001101102,public,0
+100110110210109,49.502111,7.592556,Grünabfallsammelstelle,Schwedelbach,Pörrbacher Str.,67685,1,1001101102,public,0
+100110110210110,49.511241,7.868990,Wendehammer,Sembach,Williams Road,67681,1,1001101102,public,0
+100110110210111,49.454157,7.526513,Bahnübergang,Steinwenden,Eisenbahnstraße,66879,1,1001101102,public,0
+100110110210112,49.456317,7.503002,Gemeindeplatz,Steinwenden (Obermohr),Bachweg,66879,1,1001101102,public,0
+100110110210113,49.378833,7.733333,Dorfplatz (Stelzenberg),Stelzenberg,Lindenstr.,67705,1,1001101102,public,0
+100110110210114,49.372889,7.744361,Wendehammer,Stelzenberg,Römerweg,67705,1,1001101102,public,0
+100110110210115,49.517361,7.641639,Wendeplatz,Obersulzbach,Hauptstr.,67734,1,1001101102,public,0
+100110110210116,49.522056,7.663417,Bahnhof (Sulzbachtal),Untersulzbach,Pferchstr.,67734,1,1001101102,public,0
+100110110210117,49.357250,7.777806,Am Bauhof,Trippstadt,Landauer Weg,67705,1,1001101102,public,0
+100110110210118,49.350758,7.781544,Campingplatz Nothof im Gelände,Trippstadt,Sägmühle,67705,1,1001101102,not_public,0
+100110110210119,49.356056,7.768389,Parkplatz Karlstalhalle,Trippstadt,Steiggasse,67705,1,1001101102,public,0
+100110110210120,49.392622,7.757357,Familienlandheim,Trippstadt Aschbacherhof,Aschbacherhof,67705,1,1001101102,public,0
+100110110210121,49.335556,7.825972,Parkplatz Hotel-Restaurant,Trippstadt Johanniskreuz,Johanniskreuzer Str.,67705,1,1001101102,public,0
+100110110210122,49.366861,7.764667,Parkplatz Bikepark am Kreisel,Trippstadt (Langensohl),Am Hochgericht,67705,1,1001101102,public,0
+100110110210123,49.354917,7.797389,Gasthaus Dengel,Trippstadt (Neuhof),Neuhof,67705,1,1001101102,public,0
+100110110210124,49.400333,7.885389,Ecke Leinhofstraße,Waldleiningen,Harzofenstr.,67693,1,1001101102,public,0
+100110110210125,49.376889,7.846639,Waldparkplatz,Waldleiningen (Stüterhof),Stüterhof,67693,1,1001101102,public,0
+100110110210126,49.482278,7.631583,Parkplatz,Weilerbach,Borngasse,67685,1,1001101102,public,0
+100110110210127,49.475595,7.636934,hinter Edeka,Weilerbach,Isigny-Allee,67685,1,1001101102,public,0
+100110110210128,49.480278,7.622694,Parkplatz Hochhaus,Weilerbach,Mörikestr.,67685,1,1001101102,public,0
+100110110210129,49.483722,7.624139,Parkplatz am Kreisel,Weilerbach,Spitzäckerstr.,67685,1,1001101102,public,0
+100110110210130,49.437512,7.531113,Lösch's Fruchsäfte,Rammstein-Miesenbach,Robert-Bosch-Straße 1,66877,1,1001101102,not_public,0
+100110110299999,-1.000000,-1.000000,Placeholder,Placeholder,Placeholder,Placeholde,1,1001101102,unknown,0
+100210110101000,49.840475,8.654622,Auf der Marienhöhe,"Darmstadt, Eberstadt","Auf der Marienhöhe, Seminargelände ",64297,1,1002101101,not_public,0
+100210110101001,49.897911,8.682296,Meißnerweg / Grundstraße | Am Supermarkt,"Darmstadt, Kranichstein",Gruberstraße / Bartningstraße 19,64289,1,1002101101,public,0
+100210110101002,49.868770,8.633972,Berliner Allee | Gegenüber Freie Montessori-Schule,"Darmstadt, Darmstadt-West","Berliner Allee 6, Nähe Spreestraße ",64295,1,1002101101,public,0
+100210110101003,49.858439,8.652741, Orangeriegarten | Am Parkplatz Orangerie,"Darmstadt, Messel","Parkplatz vor Orangerie (Bessunger Str. 44), Zufahrt über Jahnstraße ",64285,1,1002101101,public,0
+100210110101004,49.898777,8.673712,Borsdorffstraße / Hammelstrift,"Darmstadt, Kranichstein",Hammelstrift / Borsdorffstraße ,64289,1,1002101101,public,0
+100210110101005,49.885273,8.652683,Büdinger Straße / Bad Nauheimer Straße,"Darmstadt, Darmstadt-Nord",Büdinger Straße / Bad Nauheimer Straße ,64289,1,1002101101,public,0
+100210110101006,49.884056,8.685432,Dieburger Straße / An der Fasaneriemauer,"Darmstadt, Darmstadt-Ost","Dieburger Straße 243, Fasaneriemauer, Hirschköpfe ",64287,1,1002101101,public,0
+100210110101007,49.909484,8.684011,Eckhardwiesenstraße | An der Kompostierungsanlage ,"Darmstadt, Kranichstein","Eckhardwiesenstraße 25, Kompostierungsanlage ",0,1,1002101101,public,0
+100210110101008,49.872348,8.678033,Am Molkenbrunnen / Jadeweg,"Darmstadt, Darmstadt-Ost","Erbacher Straße 119a, Am Judenteich ",64287,1,1002101101,public,0
+100210110101009,49.861216,8.638836,Eschollbrücker Straße | Am Supermarkt,"Darmstadt, Darmstadt-West",Eschollbrücker Straße Nummer 26 / Am Fliederberg ,64295,1,1002101101,public,0
+100210110101010,49.873796,8.644271,Friedrichstraße / Kasinostraße | Am Klinikum,"Darmstadt, Darmstadt-Mitte",Friedrichstraße 21 / Kasinostraße | Am Klinikum,64283,1,1002101101,not_public,0
+100210110101011,49.903669,8.652242,Gehmerweg | Am Parkplatz zum Sportplatz 1. FC Arheilgen,"Darmstadt, Arheilgen","Gehmerweg 24, Sportplatz 1. FC Arheilgen ",64291,1,1002101101,public,0
+100210110101012,49.820111,8.639581,Reuterallee / Georgenstraße | Am Parkplatz ,"Darmstadt, Eberstadt","Georgenstraße 58, Waldstraße, Reuterallee, bei Penny-Markt ",64297,1,1002101101,public,0
+100210110101013,49.872834,8.634175,Mornewegstraße | Am Parkplatz,"Darmstadt, Darmstadt-Nord","Mornewegstraße 75-77, schräg gegenüber Cinemaxx ",64293,1,1002101101,public,0
+100210110101014,49.852018,8.633961,Am Pelz / Heimstättenweg,"Darmstadt, Darmstadt-West",Heimstättenweg 81 / Am Pelz 79 ,64295,1,1002101101,public,0
+100210110101015,49.885718,8.673846,Schwarzer Weg / Im Emser ,"Darmstadt, Darmstadt-Ost",Im Emser 35 / Flotowstraße ,64287,1,1002101101,public,0
+100210110101016,49.870433,8.644908,Adelungstraße / Neckarstraße,"Darmstadt, Darmstadt-Mitte",Neckarstraße / Adelungstraße ,64283,1,1002101101,public,0
+100210110101017,49.864565,8.660468,Ilse-Langner-Platz,"Darmstadt, ",Niebergallweg / Herdweg / Hochstraße ,64285,1,1002101101,public,0
+100210110101018,49.857031,8.668879,Nieder-Ramstädter Straße | Tankstelle,"Darmstadt, ","Nieder-Ramstädter Straße 170, Aral-Tankstelle",64285,1,1002101101,public,0
+100210110101019,49.857730,8.668706,Nieder-Ramstädter Straße | Böllenfalltorhalle,"Darmstadt, Messel","Nieder-Ramstädter Straße 211, Stadion Böllenfalltor",64285,1,1002101101,public,0
+100210110101020,49.854691,8.669339,Nieder-Ramstädter Straße / Traisaer Straße,"Darmstadt, Messel",Nieder-Ramstädter Straße 225A / Traisaer Straße ,64285,1,1002101101,public,0
+100210110101021,49.915815,8.640729,Ottoweg / Weiterstädter Straße ,"Darmstadt, Arheilgen","Ottoweg, Nähe Weiterstädter Straße ",64291,1,1002101101,public,0
+100210110101022,49.814228,8.624557,Pfungstädter Straße | Am Getränkemarkt ,"Darmstadt, Eberstadt","Pfungstädter Straße 174, Getränke Maruhn ",64297,1,1002101101,public,0
+100210110101023,49.866478,8.606076,Rheinstraße / Am Kellerweg,"Darmstadt, Darmstadt-Nord","Rheinstraße 315 / Am Kellerweg, Siedlung Tann ",64293,1,1002101101,public,0
+100210110101024,49.868032,8.638981,Schöfferstraße / Havelstraße ,"Darmstadt, Darmstadt-West",Schöfferstraße 2A / Havelstraße ,64295,1,1002101101,public,0
+100210110101025,49.880586,8.669172,Spessartring / Washingtonplatz,"Darmstadt, Darmstadt-Ost",Washingtonplatz ,64287,1,1002101101,public,0
+100210110101026,49.860401,8.640864,Ingelheimer Straße | Am Ingelheimer Garten,"Darmstadt, Darmstadt-West","Ingelheimer Straße 9, Ingelheimer Garten",64295,1,1002101101,public,0
+100210110101027,49.860568,8.682938,Otilie-Bock-Straße | TU Maschinenbau,"Griesheim, ",Otilie-Bock-Straße 2,64347,1,1002101101,public,0
+100210110101028,49.823131,8.649334,Louise-Dittmar-Straße / Gewürzapfelweg,"Darmstadt, Eberstadt",Louise-Dittmar-Straße / Gewürzapfelweg 1,64297,1,1002101101,public,0
+100210110101029,49.852886,8.624770,Mahatma-Gandhi-Straße / Eschollbrücker Straße,"Darmstadt, Darmstadt-West",Eschollbrücker Straße 71 / Bergschneise am Memory Field,64295,1,1002101101,public,0
+100210110101030,49.896324,8.674068,Borsdorffstraße / Strahringerplatz | An der Straßenbahnhaltestelle,"Darmstadt, Kranichstein",Elisabeth-Selbert-Straße / Helene-Christaller-Weg ,64289,1,1002101101,public,0
+100210110101031,49.875037,8.663488,Alexandraweg / Stiftstraße | Am Spielplatz Stiftstraße,"Darmstadt, Darmstadt-Ost","Stiftstraße / Alexandraweg, Parkplatz ",64287,1,1002101101,public,0
+100210110101032,49.882942,8.670418,"Alfred-Messel-Weg | Karlshof, Studentenwohnheim ","Darmstadt, Darmstadt-Ost","Alfred-Messel-Weg 12, Karlshof, Studentenwohnheim ",64287,1,1002101101,public,0
+100210110101033,49.930794,8.663838,Am Hasenpfad | Spielplatz am Hasenpfad ,"Darmstadt, Wixhausen","Am Hasenpfad 13, bei den Altglasbehältern ",64291,1,1002101101,public,0
+100210110101034,49.892190,8.656166,Am Nordbahnhof,"Darmstadt, Darmstadt-Nord",Am Nordbahnhof 77 ,64289,1,1002101101,public,0
+100210110101035,49.873804,8.616631,Am Waldfriedhof - Eifelring,"Darmstadt, Darmstadt-Nord","Eifelring, Waldfriedhof ",64293,1,1002101101,public,0
+100210110101036,49.904794,8.669705,Woogsweg | Parkplatz SGA,"Darmstadt, Arheilgen","Auf der Hardt 80, SGA-Sportzentrum, Parkplatz ",64291,1,1002101101,public,0
+100210110101037,49.925264,8.650745,Auwiesenweg,"Darmstadt, Wixhausen",Auwiesenweg ,64291,1,1002101101,public,0
+100210110101038,49.932818,8.648020,Bahnhofstraße / Brühlstraße,"Darmstadt, Wixhausen","Bahnhofstraße / Seegartenstraße, Parkplatz ",64291,1,1002101101,public,0
+100210110101039,49.915863,8.646215,Bahnstraße / Lindenweg,"Darmstadt, Arheilgen","Weiterstädter Straße, Bahnhof ",64291,1,1002101101,public,0
+100210110101040,49.902762,8.681957,Bartningstraße / Jaupstraße ,"Darmstadt, Kranichstein","Bartningstraße, gegenüber Jaupstraße ",64289,1,1002101101,public,0
+100210110101041,49.858898,8.635313,Bessunger Straße / Haardtring / Eschollbrücker Straße,"Darmstadt, Darmstadt-West",Bessunger Straße / Haardtring ,64295,1,1002101101,public,0
+100210110101042,49.867999,8.678178,Breslauer Platz | Bushaltestelle ,"Darmstadt, Darmstadt-Ost","Breslauer Platz, Bushaltestelle ",64287,1,1002101101,public,0
+100210110101043,49.930675,8.640035,Brückengasse / Trinkbornstraße / Nähe Feldweg,"Darmstadt, Wixhausen","Brückengasse, gegenüber Trafohäuschen ",64291,1,1002101101,public,0
+100210110101044,49.814555,8.643641,Büschelstraße,"Darmstadt, Eberstadt","Büschelstraße, vor Telekom ",64297,1,1002101101,public,0
+100210110101045,49.881906,8.679033,Dieburger Straße | Am Altenzentrum,"Darmstadt, Darmstadt-Ost","Dieburger Straße 199, Altenheim ",64287,1,1002101101,public,0
+100210110101046,49.890312,8.697343,Dieburger Straße | Am Oberwaldhaus ,"Darmstadt, Darmstadt-Ost","Dieburger Straße, Oberwaldhaus ",64287,1,1002101101,public,0
+100210110101047,49.875406,8.624047,Dornheimer Weg | An der Bushaltestelle Rodensteinweg/Altes Schalthaus,"Darmstadt, Darmstadt-Nord","Dornheimer Weg, Bushaltestelle Rodensteinweg ",64293,1,1002101101,public,0
+100210110101048,49.818505,8.647494,Eberstädter Marktstraße | Am Parkplatz ,"Darmstadt, Eberstadt","Eberstädter Marktstraße, Parkplatz ",64297,1,1002101101,public,0
+100210110101049,49.882059,8.651204,Frankfurter Straße / Emilstraße ,"Darmstadt, Darmstadt-Nord",Frankfurter Straße / Emilstraße ,64289,1,1002101101,public,0
+100210110101050,49.856947,8.631475,Eschollbrücker Straße | Einfahrt Supermarkt,"Darmstadt, Darmstadt-West",Eschollbrücker Straße bei Hs-Nr. 41 ,64295,1,1002101101,public,0
+100210110101051,49.865566,8.646201,Eschollbrücker Straße / Heidelberger Straße | Am Parkplatz,"Darmstadt, Darmstadt-Mitte",Eschollbrücker Straße / Heidelberger Straße,64283,1,1002101101,public,0
+100210110101052,49.804744,8.659077,Alter Dieburger Weg / Frankensteiner Straße,"Darmstadt, Eberstadt","Frankensteiner Straße bei Nummer 160, Nähe Brunnen ",64297,1,1002101101,public,0
+100210110101053,49.911197,8.656718,Ettesterstraße / Frankfurter Landstraße,"Darmstadt, Arheilgen","Frankfurter Landstraße / Ettester Straße, vor EKZ ",64291,1,1002101101,public,0
+100210110101054,49.846833,8.623578,Fünfkirchner Straße / Klausenburger Straße ,"Darmstadt, Darmstadt-West",Fünfkirchner Straße / Klausenburger Straße ,64295,1,1002101101,public,0
+100210110101055,49.875156,8.648333,Grafenstraße / Gustav-Lorenz-Straße,"Darmstadt, Darmstadt-Mitte","Grafenstraße 2, vor Eingang zum MPA ",64283,1,1002101101,public,0
+100210110101056,49.870183,8.650296,Elisabethenstraße / Grafenstraße | Am Ordnungsamt,"Darmstadt, Darmstadt-Mitte",Elisabethenstraße / Grafenstraße ,64283,1,1002101101,public,0
+100210110101057,49.918264,8.652919,Greinstraße / Glockengartenweg ,"Darmstadt, Arheilgen",Greinstraße / Glockengartenweg ,64291,1,1002101101,public,0
+100210110101058,49.903190,8.664459,Grillparzerstraße | Am Heizwerk ,"Darmstadt, Arheilgen","Grillparzer Straße, vor Heizwerk ",64291,1,1002101101,public,0
+100210110101059,49.872195,8.657505,Holzstraße | Am Parkhaus Justus-Liebig-Haus,"Darmstadt, Darmstadt-Mitte","Holzstraße / Justus-Liebig-Haus, Bushaltestelle ",64283,1,1002101101,public,0
+100210110101060,49.899480,8.677782,Gruberstraße / Jägertorstraße,"Darmstadt, Kranichstein",Gruberstraße / Jägertorstraße ,64289,1,1002101101,public,0
+100210110101061,49.896075,8.686313,Grundstraße / Kranichsteiner Straße ,"Darmstadt, Kranichstein",Grundstraße / Kranichsteiner Straße ,64289,1,1002101101,public,0
+100210110101062,49.869179,8.676856,Gundolfstraße / Am Botanischen Garten,"Darmstadt, Darmstadt-Ost",Gundolfstraße / Heinrich-Fuhr-Straße ,64287,1,1002101101,public,0
+100210110101063,49.855262,8.637004,Haardtring - Danziger Platz | Am Südbahnhof ,"Darmstadt, Darmstadt-West","Danziger Platz, Südbahnhof ",64295,1,1002101101,public,0
+100210110101064,49.852840,8.638685,Haardtring / Heimstättenweg ,"Darmstadt, Darmstadt-West",Haardtring / Heimstättenweg ,64295,1,1002101101,public,0
+100210110101065,49.886059,8.620269,Haasstraße 3,"Darmstadt, Darmstadt-Nord",Haasstraße 3 ,64293,1,1002101101,public,0
+100210110101066,49.925608,8.652183,Händelstraße 60-62 ,"Darmstadt, Wixhausen",Händelstraße 60-62 ,64291,1,1002101101,public,0
+100210110101067,49.883134,8.660614,Rhönring | Am Hahne-Schorsch-Platz ,"Darmstadt, Darmstadt-Nord","Rhönring, Hahne-Schorsch-Platz ",64289,1,1002101101,public,0
+100210110101068,49.933766,8.652566,Hegelstraße | Am Parkplatz Bürgermeister-Pohl-Haus,"Darmstadt, Wixhausen","Hegelstraße, Bürgermeister-Pohl-Haus, Parkplatz ",64291,1,1002101101,public,0
+100210110101069,49.841103,8.646135,Leo-Tolstoi-Straße | Am Ende der Sackgasse ,"Darmstadt, Eberstadt","Leo-Tolstoi-Straße, Ende der Sackgasse ",64297,1,1002101101,public,0
+100210110101070,49.833367,8.644951,Heidelberger Landstraße / Morsestraße ,"Darmstadt, Eberstadt",Heidelberger Landstraße / Morsestraße ,64297,1,1002101101,public,0
+100210110101071,49.809131,8.643065,Heidelberger Landstraße 379 | Am Klinikum,"Darmstadt, Eberstadt","Heidelberger Landstraße, gegenüber Klinikum und Schwamb-Schule ",64297,1,1002101101,public,0
+100210110101072,49.803224,8.640250,Heidelberger Landstraße / Grenzallee,"Darmstadt, Eberstadt",Heidelberger Landstraße / Grenzallee,64297,1,1002101101,public,0
+100210110101073,49.854859,8.646531,Heidelberger Straße | Am Parkplatz Comedy-Hall,"Darmstadt, ","Heidelberger Straße 133, gegenüber Moosbergstraße, Nähe Bessunger Turnhalle ",64285,1,1002101101,public,0
+100210110101074,49.877288,8.661546,Heinheimer Straße | Am Supermarkt,"Darmstadt, Darmstadt-Nord","Heinheimer Straße, vor Penny ",64289,1,1002101101,public,0
+100210110101075,49.841667,8.650926,Heinrich-Delp-Straße 290,"Darmstadt, Eberstadt",Heinrich-Delp-Straße / Jefferson-Siedlung ,64297,1,1002101101,public,0
+100210110101076,49.871177,8.673139,Froschweg | Parkplatz am Schul- u. Trainingsbad,"Darmstadt, Darmstadt-Ost","Heinrich-Fuhr-Straße, Schul- und Trainingsbad, Parkplatz ",64287,1,1002101101,public,0
+100210110101077,49.866389,8.656419,Martinstraße / Heinrichstraße | Am Parkplatz ,"Darmstadt, Messel","Martinstraße / Heinrichstraße, Parkplatz ",64285,1,1002101101,public,0
+100210110101078,49.868084,8.669478,Inselstraße / Heinrichstraße,"Darmstadt, Darmstadt-Ost",Heinrichstraße / Inselstraße ,64287,1,1002101101,public,0
+100210110101079,49.855447,8.660571,"Heinrichwingertsweg / Nähe Martinstraße, Parkplatz ","Darmstadt, Messel","Heinrichwingertsweg / Nähe Martinstraße, Parkplatz ",64285,1,1002101101,public,0
+100210110101080,49.856811,8.657329,Küchlerstraße | Am Parkplatz Bessunger Friedhof,"Darmstadt, Messel","Heinrichwingertsweg, Bessunger Friedhof, Küchler Straße, Parkplatz ",64285,1,1002101101,public,0
+100210110101081,49.861572,8.647894,Hermannstraße / Heidelberger Straße,"Darmstadt, Messel",Hermannstraße / Heidelberger Straße ,64285,1,1002101101,public,0
+100210110101082,49.868711,8.648496,Hügelstraße | Am Staatstheater ,"Darmstadt, Darmstadt-Mitte","Hügelstraße, Staatstheater ",64283,1,1002101101,public,0
+100210110101083,49.888162,8.675530,Im Emser / Graupnerweg,"Darmstadt, Darmstadt-Ost",Im Emser / Graupnerweg 42 A,64287,1,1002101101,public,0
+100210110101084,49.806957,8.645234,In der Kirchtanne / Seeheimer Straße,"Darmstadt, Eberstadt",Seeheimer Straße / In der Kirchtanne ,64297,1,1002101101,public,0
+100210110101085,49.908247,8.667144,Jakob-Jung-Straße | SGA Sportzentrum,"Darmstadt, Arheilgen","Jakob-Jung-Straße, vor Tennisplatz und CVJM ",64291,1,1002101101,public,0
+100210110101086,49.876147,8.640688,Julius-Reiber-Straße / Dolivostraße ,"Darmstadt, Darmstadt-Nord",Julius-Reiber-Straße / Dolivostraße ,64293,1,1002101101,public,0
+100210110101087,49.878016,8.656611,Schloßgartenstraße | Nähe Kantplatz ,"Darmstadt, Darmstadt-Nord",Schloßgartenstraße / Nähe Kantplatz ,64289,1,1002101101,public,0
+100210110101088,49.870487,8.658187,Kapellplatz | An der Alice-Eleonoren-Schule,"Darmstadt, Darmstadt-Mitte","Kapellplatz, an der Schule",64283,1,1002101101,public,0
+100210110101089,49.863055,8.654275,Karlstraße / Klappacher Straße,"Darmstadt, ",Karlstraße / Klappacher Straße ,64285,1,1002101101,public,0
+100210110101090,49.877755,8.643453,Kasinostraße / Landwehrstraße ,"Darmstadt, Darmstadt-Nord",Kasinostraße / Landwehrstraße ,64293,1,1002101101,public,0
+100210110101091,49.805958,8.642752,Stresemannstraße / Kirnberger Str. ,"Darmstadt, Eberstadt","Stresemannstraße / Kirnberger Straße, EKZ-Parkplatz ",64297,1,1002101101,public,0
+100210110101092,49.851255,8.662448,Klappacher Straße / Martinspfad | An der Bushaltestelle ,"Darmstadt, ","Klappacher Straße / Martinspfad, Bushaltestelle ",64285,1,1002101101,public,0
+100210110101093,49.880630,8.617243,Kölner Straße / Koblenzer Straße,"Darmstadt, Darmstadt-Nord",Koblenzer Straße / Kölner Straße ,64293,1,1002101101,public,0
+100210110101094,49.880129,8.664519,Taunusstraße / Kranichsteiner Straße,"Darmstadt, Darmstadt-Nord",Kranichsteiner Straße 47 / Taunusplatz ,64289,1,1002101101,public,0
+100210110101095,49.882708,8.666062,Kranichsteiner Straße / Am Karlshof,"Darmstadt, Darmstadt-Nord",Kranichsteiner Straße (Häuser Nummer 64-80) ,64289,1,1002101101,public,0
+100210110101096,49.873269,8.659064,Landgraf-Georg-Straße / Fraunhoferstraße,"Darmstadt, Darmstadt-Mitte",Landgraf-Georg-Straße / Fraunhoferstraße,64283,1,1002101101,public,0
+100210110101097,49.874054,8.668699,Dreibrunnenstraße / Landgraf-Georg-Straße,"Darmstadt, Darmstadt-Ost",Landgraf-Georg-Straße / Dreibrunnenstraße ,64287,1,1002101101,public,0
+100210110101098,49.875134,8.672907,Schwarzwaldring | Am Ostbahnhof,"Darmstadt, Darmstadt-Ost",Landgraf-Georg-Straße 150 / Am Ostbahnhof ,64287,1,1002101101,public,0
+100210110101099,49.887131,8.636381,Benzweg | Am Supermarkt,"Darmstadt, Darmstadt-Nord","Leydheckerstraße 16, Parkplatz (Rewe Center) ",64293,1,1002101101,public,0
+100210110101100,49.881964,8.656016,Friedrich-Ebert-Platz / Liebfrauenstraße,"Darmstadt, Darmstadt-Nord",Liebfrauenstraße / Friedrich-Ebert-Platz ,64289,1,1002101101,public,0
+100210110101101,49.877669,8.646782,Liebigstraße 3 / Wilhelm-Leuschner-Str. / Johannesplatz,"Darmstadt, Darmstadt-Nord","Johannisplatz, Wilhelm-Leuschner-Straße, gegenüber Hausnummer 22 ",64293,1,1002101101,public,0
+100210110101102,49.830557,8.651861,Steckenborn Weg | Am Parkplatz Löfflerweg / Carl-Ulrich-Str.,"Darmstadt, Eberstadt","Löfflerweg / Carl-Ullrich-Straße, Fußweg ",64297,1,1002101101,public,0
+100210110101103,49.877670,8.667875,Hoetgerweg / Lucasweg,"Darmstadt, Darmstadt-Ost",Lucasweg / Hoetgerweg ,64287,1,1002101101,public,0
+100210110101104,49.850028,8.653438,Ludwigshöhstraße | Ggü. Kita auf dem LuO Campus,"Darmstadt, Messel","Ludwigshöhstraße, gegenüber Lichtenberggymnasium ",64285,1,1002101101,public,0
+100210110101105,49.888503,8.657288,Marburger Straße / Am Messplatz,"Darmstadt, Darmstadt-Nord","Marburger Straße 22, Meßplatz, gegenüber Ford ",64289,1,1002101101,public,0
+100210110101106,49.867512,8.645792,Sandstraße / Neckarstraße | Am Parkplatz Marienplatz,"Darmstadt, Darmstadt-Mitte","Sandstraße (Westseite), Parkplatz am Marienplatz ",64283,1,1002101101,public,0
+100210110101107,49.872757,8.663620,Landgraf-Georg-Straße | Am Mercksparkplatz,"Darmstadt, Darmstadt-Ost","Martin-Buber-Straße, Mercksplatz, Landgraf-Georg-Straße ",64287,1,1002101101,public,0
+100210110101108,49.897900,8.665309,Würzburger Straße / Maulbeerallee,"Darmstadt, Arheilgen",Würzburger Straße / Maulbeerallee ,64291,1,1002101101,public,0
+100210110101109,49.912375,8.667207,Rodgaustraße / Bachgauweg / Messeler Straße,"Darmstadt, Arheilgen","Messeler Straße 116, Rodgaustraße, Parkplatz ",64291,1,1002101101,public,0
+100210110101110,49.878600,8.618943,Michaelisstraße / Rabenaustraße,"Darmstadt, Darmstadt-Nord","Michaelisstraße / Rabenaustraße, Kiosk, Kaserne ",64293,1,1002101101,public,0
+100210110101111,49.858359,8.643336,Kattreinstraße / Moltkestraße / Bessunger Straße ,"Darmstadt, Darmstadt-West",Kattreinstraße 106 / Moltke Straße / Bessunger Straße ,64295,1,1002101101,public,0
+100210110101112,49.820040,8.657793,Mühltalstraße | Am Schwimmbad,"Darmstadt, Eberstadt","Mühltalstraße, Schwimmbad ",64297,1,1002101101,public,0
+100210110101113,49.867030,8.664550,Nieder-Ramstädter Straße | Am Alten Friedhof,"Darmstadt, Darmstadt-Ost","Nieder-Ramstädter Straße 79, Alter Friedhof ",64285,1,1002101101,public,0
+100210110101114,49.861237,8.668953,Lichtwiesenweg | Georg-Büchner-Schule,"Darmstadt, Messel","Nieder-Ramstädter-Straße, Lichtwiesenweg ",64285,1,1002101101,public,0
+100210110101115,49.859971,8.666915,Nieder-Ramstädter Straße | Am Studentenwohnheim,"Darmstadt, ","Nieder-Ramstädter Straße 179-191, Studentenwohnheim",64285,1,1002101101,public,0
+100210110101116,49.807811,8.652133,Palisadenstraße | Am Kindergarten,"Darmstadt, Eberstadt","Palisadenstraße gegenüber 86, Kindergarten, Waldrand ",64297,1,1002101101,public,0
+100210110101117,49.882110,8.645619,Pallaswiesenstraße / Kasinostraße,"Darmstadt, Darmstadt-Nord","Pallaswiesenstraße / Sensfelderweg, vor Teppich Frick ",64293,1,1002101101,public,0
+100210110101118,49.884998,8.628392,Pallaswiesenstraße / Mainzer Straße ,"Darmstadt, Darmstadt-Nord",Pallaswiesenstraße / Mainzer Straße ,64293,1,1002101101,public,0
+100210110101119,49.905275,8.677812,Parkstraße / Jägertorstraße ,"Darmstadt, Kranichstein",Parkstraße / Jägertorstraße ,64289,1,1002101101,public,0
+100210110101120,49.817257,8.642203,Pestalozzistraße / Pfungstädter Straße ,"Darmstadt, Eberstadt",Pestalozzistraße / Pfungstädter Straße ,64297,1,1002101101,public,0
+100210110101121,49.894450,8.681242,Pfannmüllerweg / Kranichsteiner Straße,"Darmstadt, Kranichstein",Kranichsteiner Straße / Pfannmüllerweg ,64289,1,1002101101,public,0
+100210110101122,49.814321,8.622153,Am Wehr / Pfungstädter Straße,"Pfungstadt, ",Pfungstädter Straße / Am Wehr ,64319,1,1002101101,public,0
+100210110101123,49.850470,8.626176,Heimstättenweg / An der Maintanne,"Darmstadt, Darmstadt-West","Pulverhäuserweg 1, Heimstättenweg",64295,1,1002101101,public,0
+100210110101124,49.867809,8.621710,Pupinweg / Eifelring,"Darmstadt, Messel",Pupinweg gegenüber Polizeistation ,64295,1,1002101101,public,0
+100210110101125,49.872873,8.620809,Rabenaustraße / Traubenweg ,"Darmstadt, Darmstadt-Nord",Rabenaustraße / Traubenweg ,64293,1,1002101101,public,0
+100210110101126,49.824099,8.643112,Ostpreußenstraße / Reuterallee,"Darmstadt, Eberstadt",Reuterallee / Ostpreußenstraße ,64297,1,1002101101,public,0
+100210110101127,49.872431,8.643190,Kasinostraße 2-4 | Parkplatz im Innenhof,"Darmstadt, Darmstadt-Mitte","Rheinstraße 47A / Parkplatz, Ibis-Hotel ",64283,1,1002101101,public,0
+100210110101128,49.870714,8.634555,Rheinstraße / Berliner Allee,"Darmstadt, Darmstadt-West",Rheinstraße bei Hs-Nr. 103 ,64295,1,1002101101,public,0
+100210110101129,49.885498,8.678859,Richard-Wagner-Weg / Briegelweg,"Darmstadt, Darmstadt-Ost","Richard-Wagner-Weg neben 72, Parkplatzzufahrt Kirche gegenüber Briegelweg ",64287,1,1002101101,public,0
+100210110101130,49.880555,8.660832,Riegerplatz,"Darmstadt, Darmstadt-Nord",Riegerplatz ,64289,1,1002101101,public,0
+100210110101131,49.871332,8.628451,Zweifalltorweg / Robert-Bosch-Straße ,"Darmstadt, Darmstadt-Nord",Zweifalltorweg / Robert-Bosch-Straße ,64293,1,1002101101,public,0
+100210110101132,49.869350,8.667964,Roßdörfer Straße / Beckstraße,"Darmstadt, Darmstadt-Ost",Roßdörfer Straße / Beckstraße ,64287,1,1002101101,public,0
+100210110101133,49.857117,8.647659,Sandbergstraße / Forstmeisterstraße | Am Parkplatz Heiner-Aßmuth-Platz,"Darmstadt, ","Sandbergstraße / Forstmeisterstraße, Parkplatz ",64285,1,1002101101,public,0
+100210110101134,49.867602,8.646477,Sandstraße (Ostseite) / Heidelberger Straße,"Darmstadt, Darmstadt-Mitte",Sandstraße (Ostseite) / Heidelberger Straße,64283,1,1002101101,public,0
+100210110101135,49.854169,8.640360,Rüdesheimer Straße / Schiebelhuthweg,"Darmstadt, Darmstadt-West",Schiebelhuthweg / Rüdesheimer Straße ,64295,1,1002101101,public,0
+100210110101136,49.879926,8.652830,Schloßgartenstraße | Am Eingang Herrngarten ,"Darmstadt, Darmstadt-Nord","Schloßgartenstraße, Eingang Herrngarten ",64289,1,1002101101,public,0
+100210110101137,49.906519,8.649727,Schorlemmerstraße | Am Aldi,"Darmstadt, Arheilgen",Schorlemmer Straße / Wechsler Straße / Virchowstraße ,64291,1,1002101101,public,0
+100210110101138,49.866717,8.676762,Schwambstraße | Am Wendehammer ,"Darmstadt, Darmstadt-Ost","Schwambstraße, Wendehammer ",64287,1,1002101101,public,0
+100210110101139,49.873130,8.640690,Steubenplatz / Mornewegstraße,"Darmstadt, Messel",Mornewegstraße / Steubenplatz ,64293,1,1002101101,public,0
+100210110101140,49.803659,8.644486,Stresemannstraße | Parkhaus Bauverein,"Darmstadt, Eberstadt",Stresemannstr. 12/ August Metz Weg,64297,1,1002101101,public,0
+100210110101141,49.900643,8.684435,Theodor-Reh-Straße / Wendelstadtanlage ,"Darmstadt, Kranichstein","Theodor-Reh-Straße, gegenüber Wendelstadtanlage ",64289,1,1002101101,public,0
+100210110101142,49.876002,8.616821,Dornheimer Weg  / Trierer Straße,"Darmstadt, Darmstadt-Nord",Trierer Straße 2 / Dornheimer Weg ,64293,1,1002101101,public,0
+100210110101143,49.814189,8.635982,Uhlandstraße | Am Wendehammer ,"Darmstadt, Eberstadt","Uhlandstraße, vor Software AG ",64297,1,1002101101,public,0
+100210110101144,49.929552,8.653217,Schönbergstraße / Verdistraße,"Darmstadt, Wixhausen",Schönbergstraße gegenüber Verdistraße 33 ,64291,1,1002101101,public,0
+100210110101145,49.909708,8.672409,Wachtelweg / Jägertorstraße ,"Darmstadt, Arheilgen",Wachtelweg / Jägertorstraße ,64291,1,1002101101,public,0
+100210110101146,49.818270,8.635268,Reuterallee / Walther-Rathenau-Straße ,"Darmstadt, Eberstadt",Reuterallee / Walther-Rathenau-Straße 42,64297,1,1002101101,public,0
+100210110101147,49.909830,8.650114,Römerstraße / Wechslerstraße,"Darmstadt, Arheilgen",Wechsler Straße / Römer Straße ,64291,1,1002101101,public,0
+100210110101148,49.867636,8.652601,Wilhelminenplatz / Wilhelminenstraße ,"Darmstadt, Darmstadt-Mitte",Wilhelminenplatz / Riedeselstraße ,64283,1,1002101101,public,0
+100210110101149,49.847250,8.636448,Winkelschneise | Umspannanlage,"Darmstadt, Darmstadt-West",Winkelschneise ,64295,1,1002101101,public,0
+100210110101150,49.886550,8.660606,Alsfelder Straße |  Am Parkplatz Bürgerpark ,"Darmstadt, Darmstadt-Nord","Alsfelder Straße 23a , Berufsschule ",64289,1,1002101101,public,0
+100210110101151,49.849464,8.620147,Anne-Frank-Straße | Am Supermarkt,"Darmstadt, Darmstadt-West","Anne-Frank-Straße, Nähe Eschollbrücker Straße ",64295,1,1002101101,public,0
+100210110101152,49.857987,8.634833,Nachtigallenweg,"Darmstadt, Darmstadt-West",Am Blauen Stein / Nachtigallenweg ,64295,1,1002101101,public,0
+100210110101153,49.850911,8.648697,Hinter der Rennbahn ,"Darmstadt, Messel",Hinter der Rennbahn ,64285,1,1002101101,public,0
+100210110101154,49.866988,8.626853,Mina-Rees-Straße | An der Bushaltestelle,"Darmstadt, Darmstadt-West",Mina-Rees-Straße bei Bushaltestelle (Unterflur-Behälter) ,64295,1,1002101101,public,0
+100210110101155,49.887893,8.647576,Senselderweg | Vor Einfahrt EAD,"Darmstadt, Darmstadt-Nord",Sensfelderweg 33 (EAD Recyclingstation) ,64293,1,1002101101,public,0
+100210110101156,49.860903,8.678359,El-Lissitzky-Straße / Alarich-Weiss-Straße | Mensa,"Griesheim, ",El-Lissitzky-Straße / Alarich-Weiss-Straße,64347,1,1002101101,public,0
+100210110101157,49.850306,8.642504,Noackstraße,"Darmstadt, Messel",Noackstraße ,64285,1,1002101101,public,0
+100210110101158,49.845568,8.644227,Franklinstraße,"Darmstadt, Messel",Franklinstraße 32,64285,1,1002101101,public,0
+100310110101101,49.300000,9.001000,Parkplatz Edeka an der Kirche,Metropolis,Kirchturmstraße 1,54321,1,1003101101,public,0
+100310110101102,49.000000,9.022650,Hotel One,Metropolis,Neue Straße 78,54321,1,1003101101,public,0
+100310110101103,52.258766,8.708300,Rettungswache WÜD/NEF Stadion,Metropolis,Kreuzstraße 4,54321,1,1003101101,public,0
+100310110101104,50.258766,9.009344,Recyclinghof A,Metropolis,Alte Straße 38,54321,1,1003101101,public,0
+100310110101105,52.049840,8.993340,Brandenburger Tor,Metropolis,Morgenstraße 89,54321,1,1003101101,public,0
+100310110101106,51.911000,8.809850,Theater,Metropolis,Poststraße 4,54321,1,1003101101,public,0
+100310110101107,51.110000,8.808500,Einkaufszentrum,Metropolis,Poststraße 30,54321,1,1003101101,public,0
+100310110101108,51.100000,8.085000,Cafe Mert,Metropolis,Lessingstraße 1a,54321,1,1003101101,public,0
