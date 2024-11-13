@@ -53,7 +53,7 @@ class Dataset:
         self.__activities['MATERIAL_ID'] = self.__activities['CONTAINER_ID'].astype(str).str.slice(-4, -2).astype(np.uint64)
         self.__activities['DATE'] = self.__activities['RECORDED_AT'].dt.date.astype(str)
         # calc intervals
-        self.__activities['INTERVAL'] = self.__activities['RECORDED_AT'].diff().dt.total_seconds()
+        self.__activities['INTERVAL'] = self.__activities.groupby('CONTAINER_ID')['RECORDED_AT'].diff().dt.total_seconds()
 
         self.__activities.reset_index(drop=True, inplace=True)
 
