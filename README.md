@@ -6,6 +6,19 @@ tatsächlich noch hineinpasst. Der Glas-o-mat liefert euch genaue Füllstandsvor
 eure Routen optimieren und die Effizienz eurer Touren maximieren könnt. Lasst uns gemeinsam dafür
 sorgen, dass euer Fuhrpark voll ausgelastet ist – aber eure Container nicht!
 
+> [!NOTE]
+> After a git pull, make sure to update your conda environment by running 
+> ```bash
+> conda env update --file environment.yml --prune
+> ```
+
+## Inhaltsverzeichnis
+1. [Was ist der Glas-o-mat?](#-was-ist-der-glas-o-mat)
+2. [Features](#-features)
+3. [Installation](#-installation)
+5. [Manage dependencies](#manage-dependencies)
+4. [Hintergrund](#-hintergrund)
+
 ## 🧐 Was ist der Glas-o-mat?
 
 Der **Glas-o-mat** ist eine innovative, prädiktive Softwarelösung, die den
@@ -36,9 +49,27 @@ berechnet der Glas-o-mat, wann Container geleert werden müssen, bevor sie über
     conda activate glas-o-mat
     ```
 
-4. Local Package installieren:
+
+## Manage dependencies
+> [!IMPORTANT]
+> Make sure to activate the conda environment before running the following commands.
+
+
+### Install a new package
+1. Add the package to the conda environment:
+   ```yaml
+    dependencies:
+      - <package-name>
+   ```
+2. Update the environment:
    ```bash
-   pip install -e ./glas_o_mat
+   conda env update --file environment.yml --prune
+   ```
+
+### Update your conda environment
+1. Update the environment:
+   ```bash
+   conda env update --file environment.yml --prune
    ```
 
 
