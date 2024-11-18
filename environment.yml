@@ -8,6 +8,7 @@ dependencies:
   - notebook
   - pandas
   - matplotlib
+  - scipy
   - pip
   - pip:
       - -e ./glas_o_mat
