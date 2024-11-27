@@ -6,8 +6,17 @@ channels:
 dependencies:
   - python=3.11
   - notebook
-  - pandas
+  - pillow
   - matplotlib
+  - numpy
+  - pandas
+  - geopandas
+  - dash
+  - plotly
+  - jpeg
+  - libtiff
+  - zlib
+  - libjpeg-turbo
   - scipy
   - pip
   - pip:
