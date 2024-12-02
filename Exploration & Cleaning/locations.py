@@ -1,16 +1,31 @@
-#%%
+# Import libraries
 import pandas as pd
 import os
 from dash import Dash, dcc, html
 from dash.dependencies import Input, Output
 import plotly.graph_objects as go
 
-folder_path = '/Users/annele/Library/CloudStorage/OneDrive-zebrafant.ai/BA/Data'
-df_ContainerActivities = pd.read_csv(os.path.join(folder_path, 'ContainerActivities_coordinates.csv'))
+# Load data
+folder_path = '/Users/annele/PycharmProjects/Glas-O-Mat/data'
+df_ContainerActivities = pd.read_csv(os.path.join(folder_path, 'modified_data/ContainerActivities_coordinates.csv'))
 df_ContainerActivities['LOCATION_ID'] = df_ContainerActivities['LOCATION_ID'].astype(str)
 
-# Ensure RECORDED_AT is in datetime format for proper handling
+# Ensure RECORDED_AT is in datetime format
 df_ContainerActivities['RECORDED_AT'] = pd.to_datetime(df_ContainerActivities['RECORDED_AT'])
+
+# Drop rows where DISTANCE > 100m
+df_ContainerActivities = df_ContainerActivities[df_ContainerActivities['DISTANCE'] <= 100]
+
+# Calculate average distance per location
+average_distances = (
+    df_ContainerActivities.groupby('LOCATION_ID')['DISTANCE']
+    .mean()
+    .reset_index()
+    .rename(columns={'DISTANCE': 'AVERAGE_DISTANCE'})
+)
+
+# Merge average distances back into the main DataFrame for display purposes
+df_ContainerActivities = pd.merge(df_ContainerActivities, average_distances, on='LOCATION_ID', how='left')
 
 # Initialize the Dash app
 app = Dash(__name__)
@@ -66,7 +81,7 @@ def update_graphs(selected_location):
             lon=[location_data['GEO_LON'].iloc[0]],
             lat=[location_data['GEO_LAT'].iloc[0]],
             mode='markers',
-            marker=dict(size=10, color='red'),
+            marker=dict(size=15, color='red', symbol='star'),
             name='Starting Point'
         ))
 
@@ -74,24 +89,13 @@ def update_graphs(selected_location):
     map_fig.add_trace(go.Scattergeo(
         lon=location_data['LONGITUDE'],
         lat=location_data['LATITUDE'],
-        mode='markers',
+        mode='markers',  # Only markers
         marker=dict(size=7, color='blue'),
-        text=[f"Date: {row['RECORDED_AT']}<br>Distance: {row['DISTANCE']} m"
+        text=[f"Date: {row['RECORDED_AT']}<br>Distance: {row['DISTANCE']} m<br>Avg Distance: {row['AVERAGE_DISTANCE']:.2f} m"
               for _, row in location_data.iterrows()],
         hoverinfo='text',
         name='Activity Points'
     ))
-
-    # Add lines from starting point to activities
-    for _, row in location_data.iterrows():
-        if not pd.isna(row['GEO_LAT']) and not pd.isna(row['GEO_LON']):
-            map_fig.add_trace(go.Scattergeo(
-                lon=[row['GEO_LON'], row['LONGITUDE']],
-                lat=[row['GEO_LAT'], row['LATITUDE']],
-                mode='lines',
-                line=dict(color='gray', width=1),
-                showlegend=False
-            ))
 
     # Configure the layout to auto-zoom to points
     map_fig.update_layout(
@@ -112,14 +116,24 @@ def update_graphs(selected_location):
     # Distance-Time Plot
     time_fig = go.Figure()
 
-    # Add line plot for distance over time
+    # Add line plot for distance over time (line chart)
     time_fig.add_trace(go.Scatter(
         x=location_data['RECORDED_AT'],
         y=location_data['DISTANCE'],
         mode='lines+markers',
         line=dict(color='blue'),
-        marker=dict(size=5),
+        marker=dict(size=7),
         name='Distance Over Time'
+    ))
+
+    # Add horizontal line for average distance
+    avg_distance = location_data['AVERAGE_DISTANCE'].iloc[0]
+    time_fig.add_trace(go.Scatter(
+        x=[location_data['RECORDED_AT'].min(), location_data['RECORDED_AT'].max()],
+        y=[avg_distance, avg_distance],
+        mode='lines',
+        line=dict(color='red', dash='dash'),
+        name=f'Average Distance: {avg_distance:.2f} m'
     ))
 
     time_fig.update_layout(
@@ -133,4 +147,4 @@ def update_graphs(selected_location):
     return map_fig, time_fig
 
 # Run the app
-app.run_server(debug=True, port=8080)
+app.run_server(debug=True, port=8090)
