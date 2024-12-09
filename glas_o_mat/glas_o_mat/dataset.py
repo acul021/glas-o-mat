@@ -62,7 +62,7 @@ class Dataset:
         self.__aggregated = pd.merge(self.activities, self.containers, on='CONTAINER_ID',
                                      how='left', validate='many_to_one')
         self.__aggregated.loc[
-            self.__aggregated['CONSTRUCTION_TYPE_ID'].isnan(), 'CONSTRUCTION_TYPE_ID'] = 1
+            self.__aggregated['CONSTRUCTION_TYPE_ID'].isna(), 'CONSTRUCTION_TYPE_ID'] = 1
         self.__aggregated = pd.merge(self.__aggregated, self.construction_types,
                                      on='CONSTRUCTION_TYPE_ID', how='inner', validate='many_to_one')
         self.__aggregated['LEVEL'] = self.__aggregated['SLIDER_LEVEL'] * self.__aggregated[
